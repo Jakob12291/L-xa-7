@@ -89,7 +89,7 @@ class Program
         List<Employee> employeeList = new List<Employee> { e1, e2, e3, e4, e5 };
 
         // Kolla om ett specifikt objekt finns i listan
-        Employee employee2 = new Employee(2, "Bob", "Male", 55000);
+        Employee employee2 = new Employee(2, "Reidar", "Male", 55000);
         if (employeeList.Contains(employee2))
         {
             Console.WriteLine("\nEmployee2 object exists in the list");
